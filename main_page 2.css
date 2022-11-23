@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    width: 100%;
+    /*Background
+    background:url('news-02.jpeg');
+    background-position: center;*/
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #b14747;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid grey;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #d73a3a;
+    border: 2px solid #d73a3a;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+/*header*/
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+    font-family: Arial;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #d73a3a;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: rgb(85, 80, 80);
+}
+/*wesite of the hong kong reds*/ 
+.content span{
+    color: rgb(144, 144, 144);
+    font-size: 25px;
+    font-family: Arial;
+    line-height: 40px;
+}
+
+/*card*/
+body, html {
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 16px;
+  }
+  
+  .siteTitle {
+    display: block;
+    font-weight: 900;
+    font-size: 10px;
+    margin: 20px 0;
+    
+  }
+  
+  header,
+  main,
+  footer {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  /*card content*/
+  .card {
+    height: 400px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    border: 0px solid black;
+    margin-bottom: 20px;
+    background-image: url('PLAYERS01.JPEG');
+    background-size: cover;
+    border-radius: 20px;
+  }
+  /*card inner box*/
+  .inner {
+    height: 20%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(179, 178, 178, 0.882);
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 20px;
+    color: black;  
+    text-align: center;
+    font-weight: 700;
+    color: #181818;
+    text-shadow: 0px 2px 2px white;
+    position: relative;
+    margin: 0 0 20px 0;
+  }
+  
+  .subtitle {
+    color: rgb(83, 80, 80);
+    text-align: center;
+  }
+  
+  .card2 {
+    background-image: url('liverpool-coach01.jpg');
+    
+  }
+  
+  .card3 {
+    background-image: url('wqceb.jpeg');
+  }
+  
+  .card4 {
+    background-image: url('song.jpg');
+  }
+  
+  .card5 {
+    background-image: url('The\ Champions\ Wall.jpg');
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  
+@media screen and (max-width:1000px) {
+    
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    ul{
+        margin-left: 30px;
+    }   
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+       font-size: 1.6vw; 
+    }
+    .search{
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+    .btn{
+        height:40px;
+        width: 80px;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1, .content span{
+        font-size: 30px; 
+    }
+    .content .par{
+        width: 90%;
+        font-size: 16px;
+    }
+    .content .cn{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 19px;
+    }
+    .content a{
+        font-size: 1.6vw
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+    /*For tablet*/
+   
+    .content{
+        margin-top: 120px;
+        width: 80%;   
+        margin-left: 40px;  
+    }
+    .content h1, .content span{
+        font-size: 20px; 
+    }
+    .content .par{
+        width: 90%;
+        font-size: 14px;
+    }
+    .content .cn{
+        width: 15%;
+        height: 4.5vw;
+        font-size: 14px;
+    }
+    .content a{
+        font-size: 2vw
+    }
+    .logo{
+        margin-left: 240px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+    .menu{
+        width: 100%;
+    }
+    ul{
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+       font-size: 2vw; 
+    }
+    .search{
+        margin-top: -20px;
+        margin-left: 60px;   
+    }   
+    .srch{
+        height: 30px;
+        width: 160px;
+        font-size: 12px;
+    }
+    .btn{
+        height:30px;
+        width: 70px;
+    }
+    .main{
+        padding-left: 20px;
+        height: 180vh;
+    }
+    .card .card2{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+    .inner {
+      width: 25%;
+      height: 20%;
+      background-color: rgba(179, 178, 178, 0.882);
+      color: #fff;
+    }
+    .title {
+        font-size: 10px;
+        color: black;  
+        text-align: center;
+        font-weight: 700;
+        color: #181818;
+        text-shadow: 0px 2px 2px white;
+        position: relative;
+        margin: 0 0 20px 0;
+      }
+      
+      .subtitle {
+        color: rgb(83, 80, 80);
+        text-align: center;
+      }
+
+@media screen and (max-width: 600px){
+    /*IPAD*/
+ 
+    .content{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .search{
+        margin-top: -40px;
+        margin-left: 42px;
+    }
+    .logo{
+        margin-left: 180px;
+        font-size: 4vw;
+    }
+    ul{
+        margin-top: -25px;
+        margin-left: -5px;
+    }
+    ul li {
+        margin-left: 50px;
+    }
+    ul li a{
+        font-size: 2vw;
+    }   
+}
